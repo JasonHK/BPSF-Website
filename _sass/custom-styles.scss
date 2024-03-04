@@ -1,0 +1,64 @@
+.button.is-circular, .buttons.are-circular .button
+{
+    border-radius: 50%;
+}
+
+.navbar .container
+{
+    flex-direction: column;
+}
+
+.navbar-item.logo img
+{
+    max-height: revert;
+}
+
+.navbar-brand
+{
+    align-items: center;
+    
+    @include mobile
+    {
+        flex-direction: column;
+    }
+}
+
+.navbar-burger
+{
+    @include mobile
+    {
+        margin-left: 0;
+    }
+}
+
+.footer
+{
+    margin-top: 2rem;
+}
+
+#home-hero .hero-body
+{
+    padding: $hero-body-padding-medium;
+}
+
+#latest-news
+{
+    @include touch
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card-content .content
+    {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        
+        @include until-widescreen
+        {
+            -webkit-line-clamp: 4;
+        }
+    }
+}
