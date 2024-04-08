@@ -19,7 +19,7 @@
                 <ul class="buttons are-large are-circular">
                     {% for social in site.data.socials %}
                         <li class="mr-2">
-                            <a class="button" href="{{ social.url }}" target="_blank" title="{{ social.name }}" aria-label="{{ social.name }} page">
+                            <a class="button is-{{ social.name | downcase }}" href="{{ social.url }}" target="_blank" title="{{ social.name }}" aria-label="{{ social.name }} page">
                                 <span class="icon"><i class="{{ social.icon }}"></i></span>
                             </a>
                         </li>

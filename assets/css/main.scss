@@ -22,6 +22,8 @@
 
 @forward "bulma/sass/themes";
 
+@use "bulma-social/css/all";
+
 @use "bulma/sass/utilities/mixins";
 
 .button.is-circular, .buttons.are-circular .button
