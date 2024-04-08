@@ -2,6 +2,8 @@
 title: Message from Chairman
 ---
 
+{% picture assets/images/lewis-nam.jpg %}
+
 It is my great honour to serve as the chairman of the Rev. Brother Paul Sun Education Foundation. The Foundation has been promoting excellence in local education for a decade since 2009, to continue the spirit and love of the Founder of SJACS and SJACPS, our beloved Bro. Paul Sun.
 
 All trustees of the Foundation are working on a pro bono basis and no paid staff is engaged. It is my heartfelt gratitude to our honourary advisors, auditor, legal advisor, trustees, and all contributing parties. The Foundation will continue to maintain this absolute zero administrative cost practice and make sure every cent of the donation goes to students.
