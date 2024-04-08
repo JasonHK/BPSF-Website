@@ -40,8 +40,7 @@ sass:
     - ./_sass
 
 jekyll-minifier:
-  uglifier_args:
-    harmony: true
+  compress_javascript: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
