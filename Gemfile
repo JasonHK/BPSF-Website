@@ -18,6 +18,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll_picture_tag", "~> 2.0.4"
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-hostname", "~> 1.0.9"
   gem "jekyll-minifier", "~> 0.1.10"
 end
 
