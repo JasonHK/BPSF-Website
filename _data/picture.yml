@@ -3,3 +3,11 @@ media_queries:
   tablet: "max-width: 1023px"
   desktop: "max-width: 1215px"
   widescreen: "max-width: 1407px"
+
+presets:
+  default:
+    widths: [600, 900, 1200]
+    formats: [webp, original]
+    sizes:
+      mobile: 80vw
+    size: 500px

@@ -1,4 +1,5 @@
 ---
+layout: page
 title: About Rev. Bro. Paul Sun
 ---
 

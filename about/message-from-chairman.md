@@ -1,8 +1,9 @@
 ---
+layout: page
 title: Message from Chairman
 ---
 
-{% picture assets/images/lewis-nam.jpg %}
+{% picture assets/images/lewis-nam.jpg height="200" %}
 
 It is my great honour to serve as the chairman of the Rev. Brother Paul Sun Education Foundation. The Foundation has been promoting excellence in local education for a decade since 2009, to continue the spirit and love of the Founder of SJACS and SJACPS, our beloved Bro. Paul Sun.
 
