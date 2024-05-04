@@ -1,0 +1,119 @@
+trustees:
+  - name:
+      zh: 林鏡洪先生
+      en: Mr. LAM, Kang Hung
+    role:
+      zh: 受托人主席
+      en: Trustee Chairman
+  - name:
+      zh: 林振山先生
+      en: Mr. LAM, Chun Shan
+    role:
+      zh: 副主席
+      en: Vice-Chairman
+  - name:
+      zh: 江俊勲先生
+      en: Mr. KONG, Chun Fan
+    role:
+      zh: 副主席
+      en: Vice-Chairman
+  - name:
+      zh: 馮俊皓先生
+      en: Mr. FUNG, Chun Ho
+    role:
+      zh: 秘書
+      en: Secretary
+  - name:
+      zh: 余家洋先生
+      en: Mr. YU, Ka Yeung
+    role:
+      zh: 司庫
+      en: Treasurer
+  - name:
+      zh: 陳柏林醫生
+      en: Dr. CHEN, Pak Lam Sammy
+  - name:
+      zh: 許祈峰先生
+      en: Mr. HUI, Ki Fung
+  - name:
+      zh: 高上人先生
+      en: Mr. KO, Sheung Yan Russell
+  - name:
+      zh: 黎燕清女士
+      en: Miss LAI, Yin Ching
+  - name:
+      zh: 李漢強先生
+      en: Mr. LI, Hon Keung
+  - name:
+      zh: 藍世樂博士
+      en: Dr. NAM, Sai Lok
+  - name:
+      zh: 吳文堅先生
+      en: Mr. NG, Man Kin
+  - name:
+      zh: 吳子祺先生
+      en: Mr. NG, Tsz Kei
+  - name:
+      zh: 商紹豪先生
+      en: Mr. SHEUNG, Siu Ho Stephen
+  - name:
+      zh: 韋卓輝先生
+      en: Mr. WAI, Cheuk Fai
+  - name:
+      zh: 胡熾昌先生
+      en: Mr. WU, Chi Cheong Frederick
+  - name:
+      zh: 嚴俊良先生
+      en: Mr. YIM, Chun Leung
+
+advisors:
+  - name:
+      zh: 儲富有先生
+      en: Mr. CHU, Fu Yau Dominic
+  - name:
+      zh: 潘永強先生
+      en: Mr. POON, Wing Keung
+  - name:
+      zh: 李彩燕女士
+      en: Ms. LEE, Choi Yin Fanny
+  - name:
+      zh: 郭芸女士
+      en: Ms. KWOK, Wan
+  - name:
+      zh: 楊少雄先生
+      en: Mr. YEUNG, Siu Hung Paul
+  - name:
+      zh: 劉國輝先生
+      en: Mr. LAU, Kwok Fai Francis
+  - name:
+      zh: 李繩宗先生
+      en: Mr. LI, Shing Chung Matthias
+  - name:
+      zh: 潘銘昭先生
+      en: Mr. POON, Ming Chiu Matthew
+  - name:
+      zh: 胡國強先生
+      en: Mr. WU, Kwok Keung Andrew
+  - name:
+      zh: 楊偉雄先生
+      en: Mr. YEUNG, Wai Hung Peter
+
+legal_advisors:
+  - name:
+      zh: 伍國賢大律師
+      en: Mr NG, Kwok Yin Godwin
+
+auditors:
+  - name:
+      zh: 香港立信豪會計師事務所
+      en: BDO Limited
+
+financial_advisors:
+  - name:
+      zh: 李陳衞賢女士
+      en: Mrs LI CHAN, Wai Yin
+
+editors:
+  - name:
+      zh: 陳瑞華先生
+      en: Mr. Lester Chan

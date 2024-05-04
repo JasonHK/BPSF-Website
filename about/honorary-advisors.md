@@ -3,43 +3,35 @@ layout: page
 title: Board of Honorary Advisors
 ---
 
-- <span lang="zh-HK">儲富有先生</span><br />
-  Mr. CHU, Fu Yau Dominic
-- <span lang="zh-HK">潘永強先生</span><br />
-  Mr. POON, Wing Keung
-- <span lang="zh-HK">李彩燕女士</span><br />
-  Ms. LEE, Choi Yin Fanny
-- <span lang="zh-HK">郭芸女士</span><br />
-  Ms. KWOK, Wan
-- <span lang="zh-HK">楊少雄先生</span><br />
-  Mr. YEUNG, Siu Hung Paul
-- <span lang="zh-HK">劉國輝先生</span><br />
-  Mr. LAU, Kwok Fai Francis
-- <span lang="zh-HK">李繩宗先生</span><br />
-  Mr. LI, Shing Chung Matthias
-- <span lang="zh-HK">潘銘昭先生</span><br />
-  Mr. POON, Ming Chiu Matthew
-- <span lang="zh-HK">胡國強先生</span><br />
-  Mr. WU, Kwok Keung Andrew
-- <span lang="zh-HK">楊偉雄先生</span><br />
-  Mr. YEUNG, Wai Hung Peter
+{% for advisor in site.data.board.advisors %}
+- <span lang="zh-HK">{{ advisor.name.zh }}</span><br />
+  {{ advisor.name.en }}
+{% endfor %}
 
 ## Honorary Legal Advisor
 
-- <span lang="zh-HK">伍國賢大律師</span><br />
-  Mr NG, Kwok Yin Godwin
+{% for advisor in site.data.board.legal_advisors %}
+- <span lang="zh-HK">{{ advisor.name.zh }}</span><br />
+  {{ advisor.name.en }}
+{% endfor %}
 
 ## Honorary Auditor
 
-- <span lang="zh-HK">香港立信豪會計師事務所</span><br />
-  BDO Limited
+{% for auditor in site.data.board.auditors %}
+- <span lang="zh-HK">{{ auditor.name.zh }}</span><br />
+  {{ auditor.name.en }}
+{% endfor %}
 
 ## Honorary Financial Advisor
 
-- <span lang="zh-HK">李陳衞賢女士</span><br />
-  Mrs LI CHAN, Wai Yin
+{% for advisor in site.data.board.financial_advisors %}
+- <span lang="zh-HK">{{ advisor.name.zh }}</span><br />
+  {{ advisor.name.en }}
+{% endfor %}
 
 ## Honorary Editor
 
-- <span lang="zh-HK">陳瑞華先生</span><br />
-  Mr. Lester Chan
+{% for editor in site.data.board.editors %}
+- <span lang="zh-HK">{{ editor.name.zh }}</span><br />
+  {{ editor.name.en }}
+{% endfor %}
