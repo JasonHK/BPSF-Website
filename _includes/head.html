@@ -4,6 +4,8 @@
     {% if jekyll.environment == "development" %}
         <meta name="robots" content="noindex" />
     {% endif %}
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
     <script src="{{ "/assets/js/common.js" | relative_url }}" defer></script>
     <script src="https://kit.fontawesome.com/d73a37ae71.js" crossorigin="anonymous" defer></script>
