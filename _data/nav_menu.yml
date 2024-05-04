@@ -1,0 +1,37 @@
+- name: Home
+  url: /
+- name: About Us
+  url: /about/introduction
+  submenu:
+    - name: Introduction
+      url: /about/introduction
+    - name: About Rev. Bro. Paul Sun
+      url: /about/rev-bro-paul-sun
+    - name: Message from Chairman
+      url: /about/message-from-chairman
+    - name: Vision and Mission Statement
+      url: /about/vision-and-mission
+    - name: Board of Trustees and Officers
+      url: /about/trustees-and-officers
+    - name: Board of Honorary Advisors
+      url: /about/honorary-advisors
+    - name: Contact Us
+      url: /about/contact-us
+- name: News
+  url: /news
+  submenu:
+    - name: Events
+      url: /news/events
+    - name: Newsletters
+      url: /news/newsletters
+- name: Donation
+  url: /donation/make-donations
+  submenu:
+    - name: How to make donations?
+      url: /donation/make-donations
+- name: Programs & Applications
+  url: /programs-and-applications
+- name: External Links
+  submenu:
+    - name: Beneficiary Schools
+      url: /external-links/beneficiary-schools

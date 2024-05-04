@@ -1,7 +1,7 @@
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item logo"><img src="https://www.bpsf.org.hk/rc/uploads/2019/05/Banner.png" width="500" height="122"></a>
+            <a class="navbar-item logo" href="{{ site.url | relative_url }}"><img src="https://www.bpsf.org.hk/rc/uploads/2019/05/Banner.png" width="500" height="122"></a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -12,15 +12,18 @@
 
         <div id="main-menu" class="navbar-menu">
             <ul class="navbar-start">
-                <li><a class="navbar-item">Home</a></li>
-                <li><a class="navbar-item">About Us</a></li>
-                <li class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">News</a>
-                    <ul class="navbar-dropdown">
-                        <li><a class="navbar-item">Events</a></li>
-                        <li><a class="navbar-item">Newsletters</a></li>
-                    </ul>
-                </li>
+                {% for item in site.data.nav_menu %}
+                    <li class="{% if item.submenu %}navbar-item has-dropdown is-hoverable{% endif %}">
+                        <a class="{% if item.submenu %}navbar-link{% else %}navbar-item{% endif %}" {% if item.url %}href="{{ item.url | relative_url }}"{% endif %}>{{ item.name }}</a>
+                        {% if item.submenu %}
+                            <ul class="navbar-dropdown">
+                                {% for subitem in item.submenu %}
+                                    <li><a class="navbar-item" {% if subitem.url %}href="{{ subitem.url | relative_url }}"{% endif %}>{{ subitem.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
             </ul>
 
             <div class="navbar-end">
