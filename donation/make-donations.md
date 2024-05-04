@@ -6,16 +6,15 @@ title: How to make donations?
 Sending a cheque payable to: REV. BROTHER PAUL SUN EDUCATION FOUNDATION and have it sent to the Foundation at the following address:
 
 <address>
-
 Rev. Brother Paul Sun Education Foundation<br />
 46 New Clear Water Bay Road<br />
 Kowloon, Hong Kong
-
 </address>
 
-## *OR*
+{: .is-size-3.has-text-weight-bold.mt-4 }
+*OR*
 
-Making a deposit into the following bank accounts and sending us a notice by fax (no. [(852) 2325-2358](tel:+852-2325-2358)) or email (at [williamhui.chambers@gmail.com](mailto:williamhui.chambers@gmail.com)) with a copy of the deposit slip for our reference:
+Making a deposit into the following bank accounts and sending us a notice by fax (no. [(852) 2325-2358](tel:+852-23252358)) or email (at [williamhui.chambers@gmail.com](mailto:williamhui.chambers@gmail.com)) with a copy of the deposit slip for our reference:
 
 |                  |                                            |
 | ---------------- | ------------------------------------------ |
