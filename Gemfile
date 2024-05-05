@@ -16,10 +16,11 @@ gem "minima", "~> 2.5"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll_picture_tag", "~> 2.0.4"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-hostname", "~> 1.0.9"
   gem "jekyll-minifier", "~> 0.1.10"
+  gem "jekyll-paginate-v2", "~> 3.0.0"
+  gem "jekyll_picture_tag", "~> 2.0.4"
 end
 
 gem "mini_racer", "~> 0.9.0"

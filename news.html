@@ -1,0 +1,15 @@
+---
+layout: base
+permalink: /news/
+pagination:
+  enabled: true
+  per_page: 2
+  category: News
+  permalink: /:num
+---
+
+<ul>
+    {% for post in paginator.posts %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
